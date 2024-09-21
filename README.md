@@ -1,4 +1,5 @@
 ## Education Lambdified - Powered by Gemini (Google)
+Live URL of developed app: https://edu-lambdified.streamlit.app/
 This is an AI solution to some of the problems faced by students in school. It focuses on four solutions:
 1. Chat with Youtube videos
 2. Summarize documents and download
@@ -74,3 +75,8 @@ Allow upload of some other media files; gif, videos, ...
 ###### Sample
 
 https://github.com/user-attachments/assets/81d32ac8-7826-4957-8777-b7e3a2539827
+
+Technologies used:
+* Python
+* Langchain
+* Google Gemini LLMs (Gemini Pro and Gemini 1.5 Flash)

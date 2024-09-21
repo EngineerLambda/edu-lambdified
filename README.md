@@ -16,7 +16,7 @@ It saves one the stress of having to watch an entire video just to find a simple
 * Support longer videos
 
 ###### Sample
-[Demo Video](./sample_vids/youtube_rag.mp4)
+https://github.com/user-attachments/assets/78fb0e7f-4ab0-4c5f-ba5a-8afb1e020255
 
 
 ### 2. **Summarize documents and download (format preserved)**
@@ -30,7 +30,8 @@ Completing reading materials in a shorter time, while not missing the important 
 * Have support for longer documents
 
 ###### Sample
-[Demo Video](./sample_vids/summarizer.mp4)
+
+https://github.com/user-attachments/assets/bcd6e97b-5e59-4850-ac99-d0c4b48448b0
 
 
 ### 3. **Actively Practice documents with AI**
@@ -59,7 +60,8 @@ Calculating CGPA before a new semester considering each of the new courses to be
 Allow upload of result documents (pdf) or image (screenshot) to calculate CGPA.
 
 ###### Sample
-[Demo Video](./sample_vids/gpa_calculator.mp4)
+
+https://github.com/user-attachments/assets/b0ca65df-fc0e-4b7c-a091-128c98d9235d
 
 
 ### 5. **Capture and Ask**
@@ -70,4 +72,5 @@ This is good for when you have complicated equations and diagrams that you find 
 ###### Future additions
 Allow upload of some other media files; gif, videos, ...
 ###### Sample
-[Demo Video](./sample_vids/capture.mp4)
+
+https://github.com/user-attachments/assets/81d32ac8-7826-4957-8777-b7e3a2539827

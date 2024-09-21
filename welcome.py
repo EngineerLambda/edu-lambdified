@@ -28,7 +28,7 @@ It saves one the stress of having to watch an entire video just to find a simple
 ###### Sample
 """
 st.markdown(part_1)
-st.video(vid_name("youtube_rag.mp4"))
+st.video("https://github.com/user-attachments/assets/78fb0e7f-4ab0-4c5f-ba5a-8afb1e020255")
 
 part_2 = """
 ### 2. **Summarize documents and download (format preserved)**
@@ -44,7 +44,7 @@ Completing reading materials in a shorter time, while not missing the important 
 ###### Sample
 """
 st.markdown(part_2)
-st.video(vid_name("summarizer.mp4"))
+st.video("https://github.com/user-attachments/assets/bcd6e97b-5e59-4850-ac99-d0c4b48448b0")
 
 part_3 = """
 ### 3. **Actively Practice documents with AI**
@@ -79,7 +79,7 @@ Allow upload of result documents (pdf) or image (screenshot) to calculate CGPA.
 ###### Sample
 """
 st.markdown(part_4)
-st.video(vid_name("gpa_calculator.mp4"))
+st.video("https://github.com/user-attachments/assets/b0ca65df-fc0e-4b7c-a091-128c98d9235d")
 
 
 part_5 = """
@@ -93,4 +93,5 @@ Allow upload of some other media files; gif, videos, ...
 ###### Sample
 """
 st.markdown(part_5)
-st.video(vid_name("capture.mp4"))
+st.video("https://github.com/user-attachments/assets/81d32ac8-7826-4957-8777-b7e3a2539827")
+

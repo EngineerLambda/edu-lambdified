@@ -130,9 +130,10 @@ if new_choice == "New":
     gp_new = points / units
     final_temp = template.format(gpa=gp_new, expected=system)
     bt(gp_new)
-    with st.spinner("AI working..."):
+    
+    with st.expander("## AI Summary"):
         ai_summary = llm(final_temp)   
-        st.write(f"## AI Summary\n\n{ai_summary}")
+        st.write(ai_summary)
     
 else:
     max_val = 5.0 if system == "5.0" else 4.0
@@ -152,8 +153,9 @@ else:
     final_cgpa = cumm_total / cumm_units
     final_temp = template.format(gpa=final_cgpa, expected=system)
     bt(final_cgpa)
-    with st.spinner("AI working..."):
+    
+    with st.expander("## AI Summary"):
         ai_summary = llm(final_temp)   
-        st.write(f"## AI Summary\n\n{ai_summary}")
+        st.write(ai_summary)
 
     

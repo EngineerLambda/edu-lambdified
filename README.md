@@ -1,4 +1,4 @@
-## Education Lambdified
+## Education Lambdified - Powered by Gemini (Google)
 This is an AI solution to some of the problems faced by students in school. It focuses on four solutions:
 1. Chat with Youtube videos
 2. Summarize documents and download
@@ -16,6 +16,7 @@ It saves one the stress of having to watch an entire video just to find a simple
 * Support longer videos
 
 ###### Sample
+[Demo Video](./sample_vids/youtube_rag.mp4)
 
 
 ### 2. **Summarize documents and download (format preserved)**
@@ -29,6 +30,8 @@ Completing reading materials in a shorter time, while not missing the important 
 * Have support for longer documents
 
 ###### Sample
+[Demo Video](./sample_vids/summarizer.mp4)
+
 
 ### 3. **Actively Practice documents with AI**
 ###### About
@@ -43,7 +46,7 @@ Good way to practice for exams that requires high precision answers
 
 ###### Sample
 
-### 4. **Actively Practice documents with AI**
+### 4. **Calculate GPA and get AI guidance**
 ###### About
 This tool allows students to track progress by calculating their gpa/cgpa based on both 4.0 and 5.0 system, together with AI recommendation on how to get their grades up.
 It is divided into two sections:
@@ -56,6 +59,8 @@ Calculating CGPA before a new semester considering each of the new courses to be
 Allow upload of result documents (pdf) or image (screenshot) to calculate CGPA.
 
 ###### Sample
+[Demo Video](./sample_vids/gpa_calculator.mp4)
+
 
 ### 5. **Capture and Ask**
 ###### About
@@ -65,3 +70,4 @@ This is good for when you have complicated equations and diagrams that you find 
 ###### Future additions
 Allow upload of some other media files; gif, videos, ...
 ###### Sample
+[Demo Video](./sample_vids/capture.mp4)

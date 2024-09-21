@@ -119,4 +119,3 @@ if st.session_state.qa_json:
     
 else:
     st.warning("Upload document and specify number of questions to proceed")
-

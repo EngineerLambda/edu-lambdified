@@ -1,8 +1,14 @@
 import streamlit as st
+import os
+
+base = os.path.join(os.getcwd(), "sample_vids")
+
+def vid_name(name):
+    return os.path.join(base, name)
 
 st.set_page_config(page_title="Welcome Page", page_icon="👋")
 part_1 = """
-## Education Lambdified
+## Education Lambdified - Powered by Gemini (Google)
 This is an AI solution to some of the problems faced by students in school. It focuses on four solutions:
 1. Chat with Youtube videos
 2. Summarize documents and download
@@ -22,6 +28,7 @@ It saves one the stress of having to watch an entire video just to find a simple
 ###### Sample
 """
 st.markdown(part_1)
+st.video(vid_name("youtube_rag.mp4"))
 
 part_2 = """
 ### 2. **Summarize documents and download (format preserved)**
@@ -37,6 +44,7 @@ Completing reading materials in a shorter time, while not missing the important 
 ###### Sample
 """
 st.markdown(part_2)
+st.video(vid_name("summarizer.mp4"))
 
 part_3 = """
 ### 3. **Actively Practice documents with AI**
@@ -49,7 +57,7 @@ Good way to practice for exams that requires high precision answers
 ###### Future additions
 * Support longer documents
 * Support more document formats
-
+* Use a better LLM with reliable JSON output
 ###### Sample
 """
 st.markdown(part_3)
@@ -71,6 +79,8 @@ Allow upload of result documents (pdf) or image (screenshot) to calculate CGPA.
 ###### Sample
 """
 st.markdown(part_4)
+st.video(vid_name("gpa_calculator.mp4"))
+
 
 part_5 = """
 ### 5. **Capture and Ask**
@@ -83,3 +93,4 @@ Allow upload of some other media files; gif, videos, ...
 ###### Sample
 """
 st.markdown(part_5)
+st.video(vid_name("capture.mp4"))

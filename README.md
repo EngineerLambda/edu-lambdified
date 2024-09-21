@@ -56,3 +56,12 @@ Calculating CGPA before a new semester considering each of the new courses to be
 Allow upload of result documents (pdf) or image (screenshot) to calculate CGPA.
 
 ###### Sample
+
+### 5. **Capture and Ask**
+###### About
+This tool allows students to Upload images and get AI guides
+###### Use case
+This is good for when you have complicated equations and diagrams that you find hard to understand, whether in hard or soft copy materials, just capture (camera or screenshot) and ask AI, interactively.
+###### Future additions
+Allow upload of some other media files; gif, videos, ...
+###### Sample

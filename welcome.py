@@ -62,7 +62,7 @@ Good way to practice for exams that requires high precision answers
 ###### Sample
 """
 st.markdown(part_3)
-
+st.video("https://github.com/user-attachments/assets/be2ccf10-cba8-4d94-b6f0-c3d5992e6c18")
 
 part_4 = """
 ### 4. **Calculate GPA and get AI guidance**

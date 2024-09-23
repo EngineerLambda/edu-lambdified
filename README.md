@@ -48,6 +48,8 @@ Good way to practice for exams that requires high precision answers
 
 ###### Sample
 
+https://github.com/user-attachments/assets/be2ccf10-cba8-4d94-b6f0-c3d5992e6c18
+
 ### 4. **Calculate GPA and get AI guidance**
 ###### About
 This tool allows students to track progress by calculating their gpa/cgpa based on both 4.0 and 5.0 system, together with AI recommendation on how to get their grades up.

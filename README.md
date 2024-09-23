@@ -1,11 +1,11 @@
 ## Education Lambdified - Powered by Gemini (Google)
-Live URL of developed app: https://edu-lambdified.streamlit.app/
-This is an AI solution to some of the problems faced by students in school. It focuses on four solutions:
+Live URL of developed app: https://edu-lambdified.streamlit.app/<br>
+This is an AI solution to some of the problems faced by students in school. It focuses on five solutions:
 1. Chat with Youtube videos
 2. Summarize documents and download
 3. Actively Practice documents with AI
 4. Calculate GPA and get AI guidance
-
+5. Capture and Ask
 ### 1. **Chat with Youtube videos**
 ###### About
 This AI soloution makes use of Youtube video URL to obtain the video transcript, then processes it, to provide a custom question-answering AI chatbot. It also add the video summary on the side bar, just so users can have an idea on what questions to ask.

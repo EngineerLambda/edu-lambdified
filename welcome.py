@@ -9,11 +9,12 @@ def vid_name(name):
 st.set_page_config(page_title="Welcome Page", page_icon="👋")
 part_1 = """
 ## Education Lambdified - Powered by Gemini (Google)
-This is an AI solution to some of the problems faced by students in school. It focuses on four solutions:
+This is an AI solution to some of the problems faced by students in school. It focuses on five solutions:
 1. Chat with Youtube videos
 2. Summarize documents and download
 3. Actively Practice documents with AI
 4. Calculate GPA and get AI guidance
+5. Capture and Ask
 
 ### 1. **Chat with Youtube videos**
 ###### About

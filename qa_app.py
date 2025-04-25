@@ -108,7 +108,7 @@ The answer doesn't have to be verbatim, tell me I am correct if I use other word
 """
 
 # Initialize LLM for help evaluation
-help_llm = GoogleGenerativeAI(model="gemini-pro")
+help_llm = llm
 
 
 # Initialize session state variables

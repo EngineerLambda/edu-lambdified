@@ -21,7 +21,7 @@ class QAParser(BaseModel):
 # Define the Prompt Template
 prompt_template_str = """
 Please generate {number} questions and their corresponding answers based on the following context:
-
+The questions should be very very technical and thought provoking to help students prepare hard
 Context:
 {context}
 
@@ -41,7 +41,7 @@ parser = PydanticOutputParser(pydantic_object=QAParser)
 
 
 # Initialize the LLM
-# Using GoogleGenerativeAI with model "gemini-pro"
+# Using GoogleGenerativeAI with model "gemini-2.0-flash"
 llm = GoogleGenerativeAI(model="gemini-2.0-flash")
 
 

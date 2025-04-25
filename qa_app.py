@@ -42,7 +42,7 @@ parser = PydanticOutputParser(pydantic_object=QAParser)
 
 # Initialize the LLM
 # Using GoogleGenerativeAI with model "gemini-pro"
-llm = GoogleGenerativeAI(model="gemini-2.5-pro")
+llm = GoogleGenerativeAI(model="gemini-2.0-flash")
 
 
 # Initialize the LLMChain
